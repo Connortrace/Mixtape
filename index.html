@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <style>
-    p{max-width: 450px}
+    p{max-width: 450px
+    text-align:center;}
     img{width: 300px}
      body{
           background: Darkseagreen;
@@ -19,41 +20,27 @@
           color: #D65076;
      }
      .center{
-       margin: auto;
-       width: 100%;
-       display: block;
+       text-align: center;
 
      }
-     ol{
-       border: pink 2px solid;
-       padding: 1%;
-       margin:1%;
+     ol{list-style-position: inside;}
+     #Container{
+       position: relative;
+       width: 50%;
+       margin: 0 auto;
      }
-     h1{
-       border: pink 2px solid;
-       padding: 1%;
-       margin: 1%;
+     #Center-h1{
+       position: absolute;
+       top:50%;
+       left:50%;
+       transform:translate(-50%,-50%);
+       font-size: 3rem;
      }
-     h2{
-       border: pink 2px solid;
-       padding: 1%;
-       margin: 1%;
+     #Color-Image{
+       width: 100%;
      }
-     img{
-       border: pink 2px solid;
-       padding: 1%;
-       margin: 1%;
-     }
-     p{
-       border: blue 2px solid;
-       padding: 1%;
-       margin: 1%;
-     }
-     h3{
-       border: red 2px solid;
-       padding: 1%;
-       margin: 1%;
-     }
+
+
 
     </style>
     <title>Mixtape</title>
@@ -61,6 +48,10 @@
   </head>
   <body>
     <div class="center">
+    <div id="Container">
+      <h1 id="Center-h1"> Music Time </h1>
+      <img id="Color-Image" src="big.jfif"/>
+    </div>
     <h1 id="top">Connor's Mixtape</h1>
     <h2>Connor's Editing Mix</h2>
     <ol>
