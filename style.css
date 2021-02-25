@@ -1,0 +1,36 @@
+p{max-width: 450px
+text-align:center;}
+img{width: 300px}
+ body{
+      background: Darkseagreen;
+      font-family: helvetica, arial, sans-serif;
+      color:DarkSlateGray;
+ }
+ a{
+     color: Navy;
+     text-decoration: none;
+ }
+ #one{
+      font-size:2em;
+      color: #D65076;
+ }
+ .center{
+   text-align: center;
+
+ }
+ ol{list-style-position: inside;}
+ #Container{
+   position: relative;
+   width: 50%;
+   margin: 0 auto;
+ }
+ #Center-h1{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   font-size: 3rem;
+ }
+ #Color-Image{
+   width: 100%;
+ }
