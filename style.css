@@ -1,6 +1,7 @@
-p{max-width: 450px
+p{max-width: 450px;
+  margin: 0 auto;
 text-align:center;}
-img{width: 300px}
+img{width: 100%;}
  body{
       background: Darkseagreen;
       font-family: helvetica, arial, sans-serif;
@@ -33,4 +34,11 @@ img{width: 300px}
  }
  #Color-Image{
    width: 100%;
+}
+   @media only screen and (min-width:700px){
+   img{
+     width:500px;
+   }
+
+
  }
